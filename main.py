@@ -224,7 +224,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main
 def main():
-    application = Application.builder().token('YOUR_BOT_TOKEN_HERE').build()
+    application = Application.builder().token('7970350972:AAFYo-SrUio4x7bQJP6ivSZPGNtItVVfTEM').build()
 
     application.add_handler(CommandHandler('start', start))
     application.add_handler(CallbackQueryHandler(check_channel, pattern='check_channel'))
